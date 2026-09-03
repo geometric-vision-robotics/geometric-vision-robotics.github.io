@@ -87,7 +87,7 @@ export const theme: ThemeUserConfig = {
     blogStartDate: '2026-03-20',
     /** Domain configuration */
     domains: {
-      main: 'aim-for-health-suzhou-embodied-ai.github.io',
+      main: 'geometric-vision-robotics.github.io',
       // githubPages: '',
       // cloudflare: '',
       // friendCircle: '',
