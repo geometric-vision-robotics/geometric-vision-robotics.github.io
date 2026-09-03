@@ -1,4 +1,4 @@
-# AIM-for-Health-Suzhou-Embodied-AI.github.io
+# Geometric Vision and Robotics Lab
 
 ## Quick Start
 

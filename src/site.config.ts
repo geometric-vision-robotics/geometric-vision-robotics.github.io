@@ -3,10 +3,10 @@ import type { CardListData, Config, IntegrationUserConfig, ThemeUserConfig } fro
 export const theme: ThemeUserConfig = {
   // === Basic configuration ===
   /** Title for your website. Will be used in metadata and as browser tab title. */
-  title: 'AIM for Health (Suzhou) | Embodied AI',
+  title: 'Geometric Vision and Robotics Lab | Embodied AI',
   /** Will be used in index page & copyright declaration */
-  author: 'AIM for Health (Suzhou)',
-  author_en: 'AIM for Health (Suzhou)',
+  author: 'Geometric Vision and Robotics Lab',
+  author_en: 'Geometric Vision and Robotics Lab',
   /** Description metadata for your website. Can be used in page metadata. */
   description:
     'Embodied AI laboratory homepage focused on foundation models, multimodal reasoning, and human-centered intelligent systems.',

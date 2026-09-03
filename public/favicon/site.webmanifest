@@ -1,6 +1,6 @@
 {
-  "name": "AIM for Health (Suzhou)",
-  "short_name": "AIM Lab",
+  "name": "Geometric Vision and Robotics Lab",
+  "short_name": "GVR Lab",
   "icons": [
     { "src": "/favicon/lab_icon.svg", "sizes": "any", "type": "image/svg+xml" }
   ],
