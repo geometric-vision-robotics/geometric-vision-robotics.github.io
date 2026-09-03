@@ -50,8 +50,8 @@ Recommended location:
 
 Examples already used on the homepage:
 
-- `public/images/wormhole.png`
-- `public/images/social-card.webp`
+- `public/images/Embody AI Logo.jpg`
+- `public/images/Multimodal World Model.png`
 - `public/images/Digital Twins.png`
 - `public/images/paper/` (e.g. `SLT-Net.png`, `HybridStereoNet.png`, … for publication cards)
 
@@ -66,7 +66,7 @@ The image in the `About The Lab` section is set directly in:
 Search for:
 
 ```astro
-<img src='/images/wormhole.png' alt='Spatial Perception Research'
+<img src='/images/Embody AI Logo.jpg' alt='Geometric Vision and Robotics Lab logo'
 ```
 
 Replace `src` with your new path, for example:
@@ -87,7 +87,7 @@ Search for:
 const researchDirections = [
   {
     title: 'Multimodal World Model',
-    image: '/images/wormhole.png'
+    image: '/images/Multimodal World Model.png'
   }
 ]
 ```
