@@ -1,5 +1,21 @@
 # Geometric Vision and Robotics Lab
 
+Homepage source for the Geometric Vision and Robotics Lab, built with Astro and
+deployed to GitHub Pages.
+
+- **Website** <https://geometric-vision-robotics.github.io/>
+- **Location** Suzhou, China
+- **Contact** xuelian.cheng@monash.edu
+- **Team Leader** Xuelian Cheng, Adjunct Lecturer, Monash University
+- **Motto** See the unseen, shape the shell
+
+**Research directions:** Multimodal World Model · Geometry Estimation and 3D
+Reconstruction · Registration · Digital Twins
+
+> The site name, author and domain are configured in `src/site.config.ts`
+> (`title`, `author`, `personal.domains.main`). `astro.config.mjs` reads `site`
+> from `personal.domains.main`, so the domain only needs changing in one place.
+
 ## Quick Start
 
 ```bash
@@ -21,7 +37,7 @@ bun run dev
 
 ## Pictures
 
-Use `AIM_lab/public/images` for homepage and section images.
+Use `public/images` for homepage and section images.
 
 Recommended location:
 
@@ -101,8 +117,8 @@ Search for:
 ```ts
 const members = [
   {
-    name: 'Zongyuan Ge',
-    photo: '/avatar/zongyuan ge.png'
+    name: 'Xuelian Cheng',
+    photo: '/avatar/xuelian cheng.jpg'
   }
 ]
 ```
@@ -110,5 +126,5 @@ const members = [
 If you want to move member photos into `public/images`, update `photo` accordingly, for example:
 
 ```ts
-photo: '/images/zongyuan-ge.png'
+photo: '/images/xuelian-cheng.jpg'
 ```
