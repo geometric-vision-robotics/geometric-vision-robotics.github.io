@@ -467,12 +467,12 @@ const publicationsByDirection = researchDirectionsWithLinks
         </div>
 
         <div class='space-y-16'>
-          <!-- Teachers -->
+          <!-- Team Leader -->
           <div>
             <div class='mx-auto flex flex-wrap justify-center gap-x-16 gap-y-12'>
               {
                 members
-                  .slice(0, 2)
+                  .slice(0, 1)
                   .map((member, index) => (
                     <MemberCard
                       member={member}
@@ -493,7 +493,7 @@ const publicationsByDirection = researchDirectionsWithLinks
             <div class='mx-auto flex flex-wrap justify-center gap-x-12 gap-y-12'>
               {
                 members
-                  .slice(2)
+                  .slice(1)
                   .map((member, index) => (
                     <MemberCard
                       member={member}
